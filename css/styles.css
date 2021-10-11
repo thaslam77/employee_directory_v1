@@ -1,0 +1,67 @@
+body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 100px 0px 35px 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.card {
+    border: solid rgb(217, 217, 219);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 1.5em 1em;
+}
+
+.card:hover {
+    background: #e1e1e1;
+}
+
+.email, .address {
+    color: rgb(163, 163, 167);
+}
+
+.card:hover .email, .card:hover .address {
+    color: rgb(0, 0, 0);
+}
+
+
+.avatar {
+    border-radius: 50%;
+}
+
+.modal {
+    width: 375px;
+    margin: 10% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: solid rgb(217, 217, 219);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,23 @@
+header {
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.grid-container {
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 30px 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar, .text-container {
+    margin: auto;
+  }
